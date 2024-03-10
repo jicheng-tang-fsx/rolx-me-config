@@ -4798,33 +4798,7 @@
       <value enum="U" description="UNDEFINED" />
     </field>
     <field number="40" name="OrdType" type="CHAR">
-      <value enum="1" description="MARKET" />
       <value enum="2" description="LIMIT" />
-      <value enum="3" description="STOP" />
-      <value enum="4" description="STOP_LIMIT" />
-      <value enum="5" description="MARKET_ON_CLOSE" />
-      <value enum="6" description="WITH_OR_WITHOUT" />
-      <value enum="7" description="LIMIT_OR_BETTER" />
-      <value enum="8" description="LIMIT_WITH_OR_WITHOUT" />
-      <value enum="9" description="ON_BASIS" />
-      <value enum="A" description="ON_CLOSE" />
-      <value enum="B" description="LIMIT_ON_CLOSE" />
-      <value enum="C" description="FOREX_MARKET" />
-      <value enum="D" description="PREVIOUSLY_QUOTED" />
-      <value enum="E" description="PREVIOUSLY_INDICATED" />
-      <value enum="F" description="FOREX_LIMIT" />
-      <value enum="G" description="FOREX_SWAP" />
-      <value enum="H" description="FOREX_PREVIOUSLY_QUOTED" />
-      <value enum="I" description="FUNARI" />
-      <value enum="J" description="MARKET_IF_TOUCHED" />
-      <value enum="K" description="MARKET_WITH_LEFTOVER_AS_LIMIT" />
-      <value enum="L" description="PREVIOUS_FUND_VALUATION_POINT" />
-      <value enum="M" description="NEXT_FUND_VALUATION_POINT" />
-      <value enum="P" description="PEGGED" />
-      <value enum="T" description="STOP_TRAIL_LIMIT" />
-      <value enum="Z" description="OrderType_StopLossTakeProfit" />
-      <value enum="Y" description="OrderType_TrailingStop" />
-      <value enum="X" description="OrderType_MarketWorseFill" />
     </field>
     <field number="41" name="OrigClOrdID" type="STRING" />
     <field number="42" name="OrigTime" type="UTCTIMESTAMP" />
@@ -4857,20 +4831,6 @@
     <field number="54" name="Side" type="CHAR">
       <value enum="1" description="BUY" />
       <value enum="2" description="SELL" />
-      <value enum="3" description="BUY_MINUS" />
-      <value enum="4" description="SELL_PLUS" />
-      <value enum="5" description="SELL_SHORT" />
-      <value enum="6" description="SELL_SHORT_EXEMPT" />
-      <value enum="7" description="UNDISCLOSED" />
-      <value enum="8" description="CROSS" />
-      <value enum="9" description="CROSS_SHORT" />
-      <value enum="A" description="CROSS_SHORT_EXEMPT" />
-      <value enum="B" description="AS_DEFINED" />
-      <value enum="C" description="OPPOSITE" />
-      <value enum="D" description="SUBSCRIBE" />
-      <value enum="E" description="REDEEM" />
-      <value enum="F" description="LEND" />
-      <value enum="G" description="BORROW" />
     </field>
     <field number="55" name="Symbol" type="STRING" />
     <field number="56" name="TargetCompID" type="STRING" />
@@ -4878,18 +4838,9 @@
     <field number="58" name="Text" type="STRING" />
     <field number="59" name="TimeInForce" type="CHAR">
       <value enum="0" description="DAY" />
-      <value enum="1" description="GOOD_TILL_CANCEL" />
-      <value enum="2" description="AT_THE_OPENING" />
       <value enum="3" description="IMMEDIATE_OR_CANCEL" />
       <value enum="4" description="FILL_OR_KILL" />
-      <value enum="5" description="GOOD_TILL_CROSSING" />
-      <value enum="6" description="GOOD_TILL_DATE" />
-      <value enum="7" description="AT_THE_CLOSE" />
-      <value enum="8" description="PDQ_FOK" />
       <value enum="X" description="GOOD_FOR_SECONDS" />
-      <value enum="Y" description="TIF_All_Or_None" />
-      <value enum="Z" description="TIF_All_Or_None_TERA2" />
-      <value enum="W" description="TIF_Immediate_Or_Cancel_TERA2" />
     </field>
     <field number="60" name="TransactTime" type="UTCTIMESTAMP" />
     <field number="61" name="Urgency" type="CHAR">
